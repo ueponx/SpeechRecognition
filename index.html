@@ -21,7 +21,6 @@ const content = document.getElementById('content');
 btn.addEventListener('click' , function() {
     // 音声認識をスタート
     speech.start();
-    btn.innerText("Starting");
 });
 
 speech.addEventListener('result' , function(e) {
